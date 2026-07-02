@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TRAVEL WORLD</title>
+</head>
+<body>
+
+  <h1>Travel World</h1>
+
+<p>   <b>La mejor agencia de viajes</b> para conocer los destinos más increíbles de México y el mundo.
+</p>
+
+<hr>
+
+<h2>Menú</h2>
+<a href="#">Inicio</a> | <a href="#">Destinos</a> | <a href="#">Promociones</a> | <a href="#">Paquetes</a> | <a href="#">Contacto</a>
+<hr>
+
+<h2>Bienvenido</h2>
+<p>
+    En <b>Travel World</b> ofrecemos paquetes turísticos para toda la familia.
+    Nuestro objetivo es brindar las mejores experiencias de viaje con <i>excelente servicio y precios accesibles</i>.
+</p>
+
+<img src="viaje.png" alt="Imagen de viaje" width="500">
+
+<h2>Destinos Populares</h2>
+<h3>Playas</h3>
+<p>
+    <ol>
+        <li>Cancún</li>
+        <li>Puerto Vallarta</li>
+        <li>Los Cabos</li>
+        <li>Riviera Maya</li>
+    </ol>
+</p>
+<h3>Pueblos Mágicos</h3>
+<p>
+    <ol>
+        <li>Tequila</li>
+        <li>Mazamitla</li>
+        <li>Real de Catorce</li>
+        <li>Taxco</li>
+    </ol>
+</p>
+
+<hr>
+
+<h2>Promociones</h2>
+<p>
+    Reserva este mes y obtén un <b>20% de descuento</b> en paquetes seleccionados.
+</p>
+<p>
+    Los primeros 50 clientes recibirán un <i>tour gratuito</i> en su destino.
+</p>
+
+<hr>
+
+<h2>Paquetes Disponibles</h2>
+
+  <table border="1">
+    <tr>
+      <th>Destino</th>
+      <th>Días</th>
+      <th>Hotel</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>Cancún</td>
+      <td>5</td>
+      <td>5 estrellas</td>
+      <td>$12,500</td>
+    </tr>
+    <tr>
+      <td>Puerto Vallarta</td>
+      <td>4</td>
+      <td>4 estrellas</td>
+      <td>$9,800</td>
+    </tr>
+    <tr>
+      <td>Los Cabos</td>
+      <td>6</td>
+      <td>5 estrellas</td>
+      <td>$15,300</td>
+    </tr>
+    <tr>
+      <td>Mazamitla</td>
+      <td>3</td>
+      <td>Cabaña</td>
+      <td>$5,900</td>
+    </tr>
+    <tr>
+      <td>Riviera Maya</td>
+      <td>7</td>
+      <td>Todo incluido</td>
+      <td>$18,900</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2>¿Por qué viajar con nosotros?</h2>
+  <ul>
+    <li>Hoteles Certificados</li>
+    <li>Guías turísticos.</li>
+    <li>Seguro de viajero.</li>
+    <li>Atención 24/7.</li>
+    <li>Facilidades de pago.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Formulario de Reservación</h2>
+ <form>
+    <fieldset>
+        <table border="1">
+            <legend>Solicitud de Reservación</legend>
+            <tr>
+                <th colspan="4">Datos del Cliente</th>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td><input type="text"></input></td>
+                <td>Correo</td>
+                <td><input type="text"></input></td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td><input type="password"></input></td>
+                <td>Edad</td>
+                <td><input type="int"></input></td>
+            </tr>
+            <tr>
+                <td>Fecha de viaje</td>
+                <td><input type="date"></input></td>
+                <td>Hora de salida</td>
+                <td><input type="time"></input></td>
+            </tr>
+            <tr>
+                <td>Número de viajeros</td>
+                <td><input type="password"></input></td>
+                <td>Presupuesto</td>
+                <td><input type="range"></input></td>
+            </tr>
+            <tr>
+                <td>Color de pulsera</td>
+                <td><input type="color"></input></td>
+                <td>Identificación</td>
+                <td><input type="file"></input></td>
+            </tr>
+            <tr>
+                <th colspan="4">Servicios</th>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <ul>
+                        <input type="checkbox">Transporte</input><br>  
+                        <input type="checkbox">Hotel</input><br>  
+                        <input type="checkbox">Desayuno</input><br>  
+                        <input type="checkbox">Seguro de viaje</input><br>  
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4">Tipo de Habitación</th>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <ul>
+                        <input type="radio">Individual</input>
+                        <input type="radio">Doble</input>
+                        <input type="radio">Familiar</input> 
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Destino</td>
+                <td>
+                    <select name="Destinos" id="0">
+                        <option value="cancun">Cancún</option>
+                        <option value="playa">Puerto Vallarta</option>
+                        <option value="montana">Los Cabos</option>
+                        <option value="montana">Mazamitla</option>
+                        <option value="montana">Riviera Maya</option>
+                    </select>
+                </td>
+                <td>Forma de pago</td>
+                <td>
+                    <select name="FormaPago" id="0">
+                        <option value="cancun">Tarjeta</option>
+                        <option value="playa">Efectivo</option>
+                        <option value="montana">Cheque</option>
+                    </select>
+                </td>
+            </tr>
+            <tr height="100">
+                <td>Comentarios</td>
+                <td colspan="3"><textarea name="Comentarios" rows="5" cols="70"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Enviar"></td>
+                <td colspan="2" align="center"><input type="reset" value="Limpiar"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+<hr>
+
+<h2>Información de Contacto</h2>
+<p>Dirección Av. Principal #100, Tepic, Nayarit.</p>
+<p>Teléfono: (311) 123-4567</p>
+<p>Correo: contacto@travelworld.com</p>
+
+<h3>Enlaces de Interés</h3>
+<a href="#">Buscar más destinos</a><br>
+<a href="#">Volver al inicio</a><br>
+<a href="#">Ver paquetes</a><br>
+
+<hr>
+<p><center>Pablo Israel Ante Arellano</center></p>
+
+</body>
+</html>
